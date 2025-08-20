@@ -38,7 +38,12 @@ In some games like Pong, when VF (the carry/flag register) is updated during ari
 
 ---
 
-## Images 
+## Screenshots
+
+Here are some screenshots of the emulator to prove that it works!
+
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/78c9d8a3-224a-4365-9400-5698e273fe90" />
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/99c70d91-250c-4e2f-bc02-0fe7178a0e8a" />
+
+---
 
