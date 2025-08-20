@@ -1,15 +1,11 @@
     package pisces;
 
-    import org.slf4j.Logger;
-    import org.slf4j.LoggerFactory;
-
     import java.awt.event.KeyAdapter;
     import java.awt.event.KeyEvent;
     import java.util.*;
 
     public class Input extends KeyAdapter {
     private final boolean[] keypad = new boolean[16];
-    private final Logger logger = LoggerFactory.getLogger(Input.class);
     private final Map<Character, Integer> keyboard_to_Keypad;
 
     private static final char[] allowed_keys = new char[] {

@@ -1,8 +1,5 @@
 package pisces;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 /**
  * Display uses 64 x 32 monochrome panel, each pixel is either 1 or 0
  */
@@ -12,8 +9,6 @@ public class Display {
     public static final int ROWS = 32;
 
     private final boolean[][] pixels = new boolean[ROWS][COLS];
-
-    private static final Logger logger = LoggerFactory.getLogger(Display.class);   
 
     // Clear the display
     public void cls() {

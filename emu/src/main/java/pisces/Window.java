@@ -1,8 +1,5 @@
 package pisces;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ComponentEvent;
@@ -17,7 +14,6 @@ public class Window extends JPanel implements PropertyChangeListener {
     private final String title = "Pisces-8 emulator";
 
     private Display display;
-    private static Logger logger = LoggerFactory.getLogger(Window.class);
 
     public Window (Display display, Input input) {
         this.display = display;
@@ -73,22 +69,22 @@ public class Window extends JPanel implements PropertyChangeListener {
         }
     }
 
-    private void drawGridLines(Graphics g) {
-        g.setColor(Color.RED);
-        int col_width = width / Display.COLS;
-        int row_height = height / Display.ROWS;
+    // private void drawGridLines(Graphics g) {
+    //     g.setColor(Color.RED);
+    //     int col_width = width / Display.COLS;
+    //     int row_height = height / Display.ROWS;
 
-        for (int r = 0; r < Display.ROWS; r++) {
-            g.drawLine(0, r * row_height, Display.COLS * col_width, r * row_height);
-            for (int c = 0; c < Display.COLS; c++) {
-                g.drawLine(c * col_width, 0, c * col_width, Display.ROWS * row_height);
-            }
-        }
+    //     for (int r = 0; r < Display.ROWS; r++) {
+    //         g.drawLine(0, r * row_height, Display.COLS * col_width, r * row_height);
+    //         for (int c = 0; c < Display.COLS; c++) {
+    //             g.drawLine(c * col_width, 0, c * col_width, Display.ROWS * row_height);
+    //         }
+    //     }
 
-        // Draw last lines (to close the grid)
-        g.drawLine(0, Display.ROWS * row_height, Display.COLS * col_width, Display.ROWS * row_height);
-        g.drawLine(Display.COLS * col_width, 0, Display.COLS * col_width, Display.ROWS * row_height);
-    }
+    //     // Draw last lines (to close the grid)
+    //     g.drawLine(0, Display.ROWS * row_height, Display.COLS * col_width, Display.ROWS * row_height);
+    //     g.drawLine(Display.COLS * col_width, 0, Display.COLS * col_width, Display.ROWS * row_height);
+    // }
 
     @Override
     public void propertyChange(PropertyChangeEvent e) {

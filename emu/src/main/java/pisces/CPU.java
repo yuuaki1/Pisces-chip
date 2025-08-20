@@ -3,8 +3,6 @@ package pisces;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import pisces.Instruction.Instructions;
-
 import java.util.Arrays;
 import java.util.Random;
 

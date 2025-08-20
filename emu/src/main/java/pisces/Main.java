@@ -23,7 +23,7 @@ public class Main {
 
         // Read from ROM file
 
-        String ch8Program = "test_rom/test_opcode.ch8"; // This is the CHIP-8 program file, it contains the instructions to be executed by the emulator.
+        String ch8Program = "test_rom/pong.ch8"; // This is the CHIP-8 program file, it contains the instructions to be executed by the emulator.
 
         InputStream inputStream = Main.class.getClassLoader().getResourceAsStream(ch8Program);
         byte[] program = new byte[4096];
