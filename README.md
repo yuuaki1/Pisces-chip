@@ -37,3 +37,8 @@ This project helped me learn **how emulators work**, **how instructions are exec
 In some games like Pong, when VF (the carry/flag register) is updated during arithmetic or shifts, it can **incorrectly change the score** if it goes above 10. I don't know why it does this, this is a "passion" project made purely on caffeine and regrets late at night.
 
 ---
+
+## Images 
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/78c9d8a3-224a-4365-9400-5698e273fe90" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/99c70d91-250c-4e2f-bc02-0fe7178a0e8a" />
+
