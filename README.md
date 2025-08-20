@@ -34,6 +34,6 @@ This project helped me learn **how emulators work**, **how instructions are exec
 - **Sprites:** Drawn using XOR; collisions set VF = 1.  
 
 **Important Bug:**  
-In some games like Pong, when VF (the carry/flag register) is updated during arithmetic or shifts, it can **incorrectly change the score** if it goes above 10. I don't know why it does this, this is a "passion" project made purely on caffeine and regrets at 11pm.
+In some games like Pong, when VF (the carry/flag register) is updated during arithmetic or shifts, it can **incorrectly change the score** if it goes above 10. I don't know why it does this, this is a "passion" project made purely on caffeine and regrets late at night.
 
 ---
